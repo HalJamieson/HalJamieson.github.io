@@ -106,3 +106,7 @@ collections:
   projects:
     output: true
     permalink: /projects/:path/
+
+# Site Stylesheets
+stylesheets:
+  - /assets/css/main.scss    
