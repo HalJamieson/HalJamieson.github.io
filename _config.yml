@@ -59,9 +59,6 @@ author:
   avatar : "/assets/images/bio-photo.jpeg"
   bio    : "Bachelor of Computer Engineering student at Dalhousie University."
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/hal-jamieson/"
@@ -71,9 +68,6 @@ author:
 
 footer:
   links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://"
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
       url: "https://www.linkedin.com/in/hal-jamieson/"
@@ -107,3 +101,8 @@ category_archive:
 tag_archive:
   type: liquid
   path: /tags/
+
+collections:
+  projects:
+    output: true
+    permalink: /projects/:path/
