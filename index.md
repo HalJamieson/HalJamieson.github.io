@@ -5,3 +5,10 @@
 layout: single
 author_profile: true
 ---
+Welcome to my engineering project portfolio. 
+
+This site is intented to provided detailed information on engineering projects that I have contributed to, both personal and academic. Project breakdowns can be found under the projects tab. 
+
+
+![Home Page Photo](/assets/images/home_page.jpg)
+
