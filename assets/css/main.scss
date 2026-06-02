@@ -1,0 +1,18 @@
+---
+---
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // loads your active skin
+@import "minimal-mistakes"; // loads the main theme styles
+
+/* Custom Footer Shrink Overrides */
+.page__footer {
+  padding-top: 1rem;    /* Shrings the massive blank vertical gap above the text */
+  padding-bottom: 1rem; /* Shrings the blank gap below the text */
+  font-size: 0.75rem;   /* Drops the text size slightly to make it look clean and compact */
+  
+  /* Reduces the sizing and spacing of social media links if you use them */
+  .footer-links {
+    margin-bottom: 0.5rem;
+    font-size: 0.9rem;
+  }
+}
