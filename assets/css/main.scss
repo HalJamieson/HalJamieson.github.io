@@ -1,15 +1,16 @@
 ---
 ---
+
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
 @import "minimal-mistakes";
 
-/* Aggressive Footer Shrink */
+/* Aggressive Footer Shrink & Link Removal */
 .page__footer {
   padding-top: 0.5rem !important;
   padding-bottom: 0.5rem !important;
   font-size: 0.7rem !important;
 
-  /* Target the inner container constraint directly */
+  /* Target the container constraints */
   .footer__inner {
     padding-top: 0 !important;
     padding-bottom: 0 !important;
@@ -17,8 +18,9 @@
     margin-bottom: 0 !important;
   }
 
-  .footer-links, .page__footer-follow {
-    margin-bottom: 0.25rem !important;
-    font-size: 0.8rem !important;
+  /* This completely removes the social links and follow text from the layout */
+  .footer-links, 
+  .page__footer-follow {
+    display: none !important;
   }
 }
