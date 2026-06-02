@@ -1,18 +1,24 @@
 ---
 ---
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
+@import "minimal-mistakes";
 
-@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // loads your active skin
-@import "minimal-mistakes"; // loads the main theme styles
-
-/* Custom Footer Shrink Overrides */
+/* Aggressive Footer Shrink */
 .page__footer {
-  padding-top: 1rem;    /* Shrings the massive blank vertical gap above the text */
-  padding-bottom: 1rem; /* Shrings the blank gap below the text */
-  font-size: 0.75rem;   /* Drops the text size slightly to make it look clean and compact */
-  
-  /* Reduces the sizing and spacing of social media links if you use them */
-  .footer-links {
-    margin-bottom: 0.5rem;
-    font-size: 0.9rem;
+  padding-top: 0.5rem !important;
+  padding-bottom: 0.5rem !important;
+  font-size: 0.7rem !important;
+
+  /* Target the inner container constraint directly */
+  .footer__inner {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+  }
+
+  .footer-links, .page__footer-follow {
+    margin-bottom: 0.25rem !important;
+    font-size: 0.8rem !important;
   }
 }
