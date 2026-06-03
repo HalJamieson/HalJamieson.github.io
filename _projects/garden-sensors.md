@@ -2,6 +2,7 @@
 layout: single
 title: "Remote Garden Soil Sensor Project"
 excerpt: "Garden soil moisture sensing."
+date: 2026-08-15
 author_profile: true
 ---
 
