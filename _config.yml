@@ -106,6 +106,7 @@ collections:
   projects:
     output: true
     permalink: /projects/:name/
+    show_date: true
 
 # Site Stylesheets
 stylesheets:
