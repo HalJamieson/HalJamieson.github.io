@@ -56,8 +56,8 @@ plugins:
 
 author:
   name   : "Hal Jamieson"
-  avatar : "/assets/images/bio-photo.jpeg"
-  bio    : "Bachelor of Computer Engineering student at Dalhousie University."
+  avatar : "/assets/images/bio.png"
+  bio    : "Bachelor of Computer Engineering<br>Dalhousie University"
   links:
     - label: "LinkedIn"
       icon: "fab fa-fw fa-linkedin"
